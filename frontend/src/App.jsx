@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AppProvider } from './context/AppContext';
 import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
-import './styles/app.css';
+import './styles/App.css';
 
 export default function App() {
   return (
