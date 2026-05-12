@@ -1,0 +1,32 @@
+## .NET / C# gitignore
+
+# Build results
+bin/
+obj/
+out/
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# dotnet publish output
+publish/
+
+# Environment / secrets
+appsettings.Development.json
+.env
+
+# NuGet
+*.nupkg
+.nuget/
+
+# OS
+.DS_Store
+Thumbs.db

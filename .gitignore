@@ -1,0 +1,14 @@
+# Root monorepo .gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Env files
+.env
+.env.*
+!.env.example
